@@ -1,6 +1,6 @@
 # Gut Microbiome Study in NAFLD
 #### The NAFLD study was performed on mice models to explore the critical role of gut microbiome in OCA treatment by shotgun metagenomics and targeted metabolomics. Thirty three six-week-old SPF male mice were adopted and randomly assigned to normal diet group (ND), high-fat diet group (HFD), and high-fat diet with following OCA treatment (HFD+OCA) group, each group consists of 11 mice. 
-##### Bioinformatic workflows of metagenomic analysis
+##### Bioinformatic workflow of metagenomic analysis
 **1.Quality control for raw data**  
     conda create --name myenv FastQC=0.11.8 Trimmomatic=0.32  
     fastqc sampleID.fastq -o quality/  
@@ -37,3 +37,5 @@
     **Functional annotation**  
     conda install --name myenv -c bioconda eggnog-mapper  
     emapper.py -i nr95_protein.fa -o eggNOG_annotation --cpu 0 --evalue 1e-5
+
+**Scripts for MAGs based metagenomic analysis are deposited in scripts folder**
