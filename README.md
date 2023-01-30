@@ -1,5 +1,5 @@
-Bioinformatic workflows of NAFLD study
-The NAFLD study was performed on mice models, the critical role of gut microbiome in OCA treatment was studied with shotgun metagenomics and targeted metabolomics. 
+The NAFLD study was performed on mice models to explore the critical role of gut microbiome in OCA treatment by shotgun metagenomics and targeted metabolomics. Thirty three six-week-old SPF male mice were adopted and randomly assigned to normal diet group (ND), high-fat diet group (HFD), and high-fat diet with following OCA treatment (HFD+OCA) group, each group consists of 11 mice.
+Bioinformatic workflows of metagenomic analysis
 1. Quality control for raw data
 Quality control by fastQC (0.11.8) and Trimmomatic (v 0.32)
 conda create --name myenv FastQC=0.11.8 Trimmomatic=0.32
