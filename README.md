@@ -4,9 +4,7 @@
 **1.Quality control for raw data**  
     conda create --name myenv FastQC=0.11.8 Trimmomatic=0.32  
     fastqc sampleID.fastq -o quality/  
-    trimmomatic PE -phred33 -trimlog log.txt $INPUT_PATH/SampleID_1.fastq.gz $INPUT_PATH/SampleID_2.fastq.gz $OUTPUT_PATH/paired_SampleID_1.fq.gz  
-    $OUTPUT_PATH/paired_SampleID_2.fq.gz $OUTPUT_PATH/paired_SampleID_1.fq.gz $OUTPUT_PATH/unpaired_SampleID_2.fq.gz ILLUMINACLIP:TruSeq3-PE.fa:2:30:10  
-    LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:50  
+    trimmomatic PE -phred33 -trimlog log.txt $INPUT_PATH/SampleID_1.fastq.gz $INPUT_PATH/SampleID_2.fastq.gz $OUTPUT_PATH/paired_SampleID_1.fq.gz $OUTPUT_PATH/paired_SampleID_2.fq.gz $OUTPUT_PATH/paired_SampleID_1.fq.gz $OUTPUT_PATH/unpaired_SampleID_2.fq.gz ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:50  
 **2.Host genomic contaminant removal**  
     conda install --name myenv -c bioconda bowtie2  
     wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/635/GCF_000001635.27_GRCm39/GCF_000001635.27_GRCm39_genomic.fna.gz -O genomic.fa   
