@@ -21,7 +21,7 @@
     $PATH/MetaGeneMark_linux_64/mgm/gmhmmp -a -d -f 3 -m $PATH/MetaGeneMark_linux_64/mgm/MetaGeneMark_v1.mod $INPUT_PATH/contigs.fa -A $OUTPUT_PATH/protein.fasta -D $OUTPUT_PATH/nuleotide.fasta  
 
 **5.Constrcuct non-redundant gene catalog**  
-    wget https://github.com/weizhongli/cdhit/releases/cd-hit-v4.8.1-2019-0228.tar.gz 
+    wget https://github.com/weizhongli/cdhit/releases/cd-hit-v4.8.1-2019-0228.tar.gz  
     tar –xvzf cd-hit-v4.8.1-2019-0228.tar.gz –C $PATH/cd-hit-v4.8.1  
     $PATH/cd-hit-v4.8.1/cd-hit -i $INPUT_PATH/protein.fasta -o nr95_protein.fa -n 5 -g 1 -c 0.95 -G 0 -M 0 -d 0 -aS 0.9  
     
