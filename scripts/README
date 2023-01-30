@@ -1,3 +1,6 @@
-# Metagenome-assembled genomes (MAGs) based analysis
-#### The MAGs based analysis mainly includes coverage and depth calculation and taxonomic and functional analysis, MAGs with coverage up to 40% were considered detected in this study. 4930 species-level genomes (SGBs, MAGs clustered with 95% ANI) from previous human microbiome study were taken as reference genomes in the current study to perform genome-based analysis.  
-scripts here are depth and coverage calculation for SGBs in samples, previous taxonomy unassigned SGBs re-classified by GTDB-tk, and functional annotation of all SGBs detected in this study  
+Metagenome-assembled genomes (MAGs) based analysis
+The MAGs based analysis mainly includes coverage and depth calculation and taxonomic and functional analysis, MAGs with coverage up to 40% were
+considered detected in this study. 4930 species-level genomes (SGBs, MAGs clustered with 95% ANI) from previous human microbiome study were taken 
+as reference genomes in the current study to perform genome-based analysis.  
+scripts here are depth and coverage calculation for SGBs in samples, previous taxonomy unassigned SGBs re-classified by GTDB-tk, and functional 
+annotation of all SGBs detected in this study  
