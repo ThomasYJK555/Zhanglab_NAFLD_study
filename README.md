@@ -40,3 +40,4 @@ metaphlan2.py SampleID.fasta  --input_type fasta > SampleID_profile.txt
 Functional annotation
 conda install --name myenv -c bioconda eggnog-mapper
 emapper.py -i nr95_protein.fa -o eggNOG_annotation --cpu 0 --evalue 0.00001
+
