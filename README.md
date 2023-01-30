@@ -1,0 +1,2 @@
+# Gut Microbiome Study in NAFLD
+#### The NAFLD study was performed on mice models to explore the critical role of gut microbiome in OCA treatment by shotgun metagenomics and targeted metabolomics. Thirty three six-week-old SPF male mice were adopted and randomly assigned to normal diet group (ND), high-fat diet group (HFD), and high-fat diet with following OCA treatment (HFD+OCA) group, each group consists of 11 mice. 
