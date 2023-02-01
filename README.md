@@ -38,4 +38,4 @@
     conda install --name myenv -c bioconda eggnog-mapper  
     emapper.py -i nr95_protein.fa -o eggNOG_annotation --cpu 0 --evalue 1e-5
 
-**Scripts for MAGs based metagenomic analysis are available in scripts folder**
+**Scripts for MAGs based metagenomic analysis are available in the "scripts" folder**
